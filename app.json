@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Clubembers",
+    "slug": "clubembers",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.0.10",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/images/fondo2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#258b9e"
+    },
+    "plugins": [
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Permitir a Clubembers usar Face ID."
+        }
+      ],
+      "expo-asset",
+      "expo-font"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/a2414e58-4dc7-4f86-9733-c3ac18e3dc91"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Permitir a Clubembers usar Face ID."
+      },
+      "bundleIdentifier": "com.clubembers.test"
+    },
+    "description": "Reservaciones en clubes y mucho mas!",
+    "extra": {
+      "eas": {
+        "projectId": "a2414e58-4dc7-4f86-9733-c3ac18e3dc91"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "android": {
+      "permissions": [
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ],
+      "package": "com.elianatechywe.clubembers"
+    }
+  }
+}

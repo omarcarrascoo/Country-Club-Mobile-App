@@ -1,0 +1,17 @@
+# ignore folders
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+.idea/
+.vscode/
+/%ProgramData%/
+.dist/
+/dist/
+.env
+.DS_Store
+android/
+ios/

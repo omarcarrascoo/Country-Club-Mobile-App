@@ -1,0 +1,72 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "plugins": ["unused-imports"],
+  "rules": {
+    "no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "interface-name": true,
+    "jsx-no-lambda": true,
+    "object-literal-sort-keys": true,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "camelcase": "off",
+    "semi": ["error", "never"],
+    "standard/no-callback-literal": 0,
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never",
+        "imports": "always-multiline",
+        "objects": "always-multiline"
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": false,
+        "tabWidth": 2,
+        "arrowParens": "always",
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "htmlWhitespaceSensitivity": "ignore"
+      }
+    ],
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "@typescript-eslint/quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ]
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      "ios/**",
+      "android/**"
+    ]
+  }
+}

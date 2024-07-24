@@ -1,0 +1,7 @@
+// fet = PublicImages[ID == 4386661000003634019];
+// const img2 = "/api/v2/elecantoclubapp/democlubembers/report/Noticias1/4386661000002914119/img/download?filepath=1705941427090_docu.jpeg"
+
+// const urlNuevo = 'https://previewengine.zohopublic.com/image/CREATOR/4386661000002914113?cli-msg=eyJzY29wZW5hbWUiOiJlbGVjYW50b2NsdWJhcHAiLCJhcHBsaW5rbmFtZSI6ImRlbW9jbHViZW1iZXJzIiwidmlld2xpbmtuYW1lIjoiQWxsX05vdGljaWFzX0hvbWVzIiwicmVjb3JkaWQiOiI0Mzg2NjYxMDAwMDAyOTE0MTE5IiwiZmllbGRsaW5rbmFtZSI6ImltZyIsInByaXZhdGVrZXkiOiIxSmJCRHF1MkNEdjRacG10eFFlWVg1UzJzeDcyVzFQZm5WeDhQbkNiazJhcUJxc0hhZU85Wjl4WDByTW1RN3YweWJCR0cyV3lIMkdqcDh0RFpFOXlldkRUR2t0SERVVFREeHk5IiwiZmlsZXBhdGgiOiIxNzA1OTQxNDI3MDkwX2RvY3UuanBlZyIsImRpZ2VzdFZhbHVlIjoiZXlKa2FXZGxjM1JXWVd4MVpTSTZNVGN4TWpjd016Z3pNRGMwTWl3aWJHRnVaM1ZoWjJVaU9pSmxjeUo5IiwiZG93bmxvYWR0eXBlIjoiaW1hZ2UiLCJhdXRob3JpemVkbW9kdWxlIjoicmVwb3J0IiwibG9naW5adWlkIjoiLTEwMCIsInNjb3BlSWQiOiI3ODg4MDM5MjEiLCJhcHBMaW5rTmFtZSI6ImRlbW9jbHViZW1iZXJzIiwieC1hdXRoLXBhdGgiOiJlbGVjYW50b2NsdWJhcHAvZGVtb2NsdWJlbWJlcnMifQ=='
+// img2.getSuffix("img/")
+// var = fet.Image.getSuffix("image/").getprefix("\" lowqual");
+// imgrURL = "https://creatorexport.zoho.com/file" + zoho.clubembers + "Noticias1/" + fet.ID + "/img/image-download/6jrO9FpHyf8pO3sWhtd7ybqjYFWeCWgPdmkyKFxdt2nvTEnyGCyHxxEABvQ4XEM5dzrehbTYvZYUkF7T6EmGQvJ41QpqgH1unb87?filepath=/" + var
